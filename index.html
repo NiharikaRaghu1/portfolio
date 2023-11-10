@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/85aecb23cd.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I am <span>Niharika</span><br> Raghu </h1>
+            </div>
+
+        </div>
+</div>
+
+
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+       <div class="about-col-1">
+        <img src="images/user.jpeg">
+       </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>HEY! I'm Niharika Raghu, an undergrad with a passion for Frontend and UI/UX development.
+                 I have a strong background in HTML, JavaScript, CSS and I also enjoy coding in C,C++ and Java.
+                Currently I am pursuing my B.E degree in Electronics and Communication in BMS Institute of Technology and Management.I'm constantly seeking new opportunities to expand my skills.
+                 Feel free to reach out if you'd like to discuss, collaborate on projects, or simply share your enthusiasm for the field.
+
+                Thank you for stopping by!
+            </p>
+            <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('hard skills')">Hard Skills</p>
+            <p class="tab-links "onclick="opentab('soft skills')">Soft Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="hard skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web development</span><br>Web app development </li>
+                <li><span>Data Structures and Algorithm</span><br>C,C++ and Java</li>
+                </ul>
+
+        </div>
+        <div class="tab-contents" id="soft skills">
+            <ul>
+                <li><span>MS Office</span><br>Word, PowerPoint,Excel formating</li>
+                <li><span>Observation</span><br>Attention to detail,problem solving </li>
+                <li><span>Communication</span><br>Decision making, multi tasking</li>
+                </ul>
+
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2019</span><br>Schooling from MES Kishore Kendra Public School</li>
+                <li><span>2021</span><br>Pre University from MES Prof BR Subbarao PU College  </li>
+                <li><span>2025</span><br>B.E in ECE from BMS Institute of Technology</li>
+                </ul>
+
+        </div>
+        </div>
+       </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list ">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Creation of websites, web applications, or user interface designs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-arrows-to-circle"></i>
+                <h2>Content creation</h2>
+                <p>Engaging, creative and effective content writing and editing. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-r-project"></i>
+                <h2>Project assistance</h2>
+                <p> Provide support for academic or extracurricular projects, 
+                    such as research assistance, data analysis, or project management.</p>
+                <a href="#">Learn more</a>
+            </div>
+</div>
+</div>
+</div>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Websites</h3>
+                    <p>Websites help you to build your business and other portfolios. My sample website can be viewed here.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Contents</h3>
+                        <p>Some of my Video editing, content writing can be viewed here.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="images/work3.jpg">
+                        <div class="layer">
+                            <h3>Research analysis</h3>
+                            <p>Some of my research work and business model proposals for efficient project management can be viewed here.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i> raghuniharika2003@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 8971561111</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/niharika____03/?igshid=MXZnbWs4N3ZwZnowZA%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/niharika-raghu-aa36a5245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/NiharikaRaghu1"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/iamcressida"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name"required>
+                <input type="email" email="email" placeholder="Your Email"required>
+                <textarea name="Message" rows="6" message="Message" placeholder="Your Message"></textarea>
+              <button type="submit"class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © .Made with  <i class="fa-solid fa-heart"></i> by Niharika</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+        
+    </script>
+    
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyMWmaYkOEWxuZZvvXC1z8smpeoKPbEH-GGDJORIIqCi3QSRWnm7vLIjDDSbnEzft7CjA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+                msg.innerHTML ="Message Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+            form.reset()
+        })
+        .catch(error  => console.error('Error!',error.message))
+    })
+      </script>
+
+
+</body>
+</html>
+
+
